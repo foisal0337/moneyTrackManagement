@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Money Tracking web app</title>
+</head>
+<body>
+    <h1 class="text-3xl font-bold text-amber-400 text-center mt-20 mb-10"> This is simple money management web calculator </h1>
+
+    <div class="bg-teal-300 w-9/12 m-auto pb-8">
+        <div class="flex flex-col m-auto w-8/12 space-y-4">
+            <label for="email" class="text-xl font-medium text-gray-700 mt-4">Email address</label>
+            <input id="email" type="email" name="email" id="email" autocomplete="email" required
+                   class="block w-full py-2 px-3 border border-gray-300 rounded-md shadow-sm 
+                          focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+          
+            <label for="password" class="text-xl font-medium text-gray-700">Password</label>
+            <input type="password" name="password" id="password" autocomplete="current-password" required
+                   class="block w-full py-2 px-3 border border-gray-300 rounded-md shadow-sm 
+                          focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+          
+            <button id="Button"type="submit"  class="inline-flex justify-center py-2 px-4 w-9/12 m-auto cursor-pointer border border-transparent 
+                      shadow-sm text-xl font-medium rounded-md text-white bg-indigo-600  hover:bg-indigo-700 
+                      focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+              Sign in
+            </button>
+          </div>
+    
+    </div>
+
+    <script src="./login.js" ></script>
+
+</body>
+</html>
